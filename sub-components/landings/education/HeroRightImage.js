@@ -34,8 +34,13 @@ const HeroRightImage = () => {
                   <CheckCircleFill size={12} fill="var(--geeks-success)" />
                   <span className="ms-2">Cancel any time</span>
                 </ListGroup.Item>
+                <ListGroup.Item as="li" bsPrefix="mb-2" >
+                <Link href="#!" className="btn btn-dark btn-lg">Explore Online Courses</Link>
+                <Link href="/job/landing-job" className="btn btn-primary btn-lg ms-2">Job-Portal</Link>
+
+                </ListGroup.Item>
               </ListGroup>
-              <Link href="#!" className="btn btn-dark btn-lg">Explore Online Courses</Link>
+             
             </div>
           </Col>
           <Col xxl={{ offset: 1, span: 5 }} xl={6} lg={6} xs={12} className="d-lg-flex justify-content-end">

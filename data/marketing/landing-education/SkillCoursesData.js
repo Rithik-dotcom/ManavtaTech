@@ -5,9 +5,9 @@ export const SkillCoursesData = [
 		image: '/images/education/edu-img-1.jpg',
 		duration: 8,
 		durationUnit: 'Hours',
-		title: 'Content Writing',
+		title: 'course-single',
 		rating: 4.9,
-		votes: 31,
+		votes: 31, 
 	},
 	{
 		id: 2,

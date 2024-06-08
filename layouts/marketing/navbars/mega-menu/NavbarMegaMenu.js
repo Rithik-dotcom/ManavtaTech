@@ -34,7 +34,7 @@ const NavbarMegaMenu = () => {
 
 					<div className="d-flex">
 						<Navbar.Brand as={Link} href="/">
-							{/* <Image src='/images/brand/logo/logo.svg' alt="" /> ManavTa Tech . */} <Link href="#" className="btn btn-outline-secondary ms-3">ManavtaTech .com</Link>
+							{/* <Image src='/images/brand/logo/logo.svg' alt="" /> ManavTa Tech . */} Manavtatech
 						</Navbar.Brand>
 						<CategoriesDropDown/>
 					</div>
@@ -71,8 +71,8 @@ const NavbarMegaMenu = () => {
 						<div className="ms-auto mt-3 mt-lg-0">
 							<div className="d-flex align-items-center">
 								<DarkLightMode />
-								<Link href="#" className="btn btn-outline-dark ms-3">Sign in</Link>
-								<Link href="#" className="btn btn-dark ms-1">Sign up</Link>
+								{/* <Link href="#" className="btn btn-outline-dark ms-3">Sign in</Link>
+								<Link href="#" className="btn btn-dark ms-1">Sign up</Link> */}
 							</div>
 						</div>
 						{/* end of right side quick / shortcut menu  */}

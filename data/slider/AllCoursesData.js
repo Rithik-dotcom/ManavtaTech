@@ -2,7 +2,7 @@ export const AllCoursesData = [
 	{
 		id: 1,
 		category: 'gatsby',
-		image: '/images/course/course-gatsby.jpg',
+		image: '/images/courseTwo/banking.jpeg',
 		title: 'Revolutionize how you build the web',
 		date_added: 'Added on 7 July, 2020',
 		instructor_name: 'Jenny Wilson',
@@ -22,7 +22,7 @@ export const AllCoursesData = [
 	{
 		id: 2,
 		category: 'graphql',
-		image: '/images/course/course-graphql.jpg',
+		image: '/images/courseTwo/healthCare.jpeg',
 		title: 'GraphQL: introduction to graphQL for beginners',
 		date_added: 'Added on 6 July, 2021',
 		instructor_name: 'Brooklyn Simmons',
