@@ -19,9 +19,8 @@ const HeroAcademy = () => {
                 <h5 className="text-dark mb-4"><i
                   className="fe fe-check icon-xxs icon-shape bg-light-success text-success rounded-circle me-2"></i> Most
                   trusted education platform</h5>
-                <h1 className="display-3 fw-bold mb-3">Grow your skills and advance career</h1>
-                <p className="pe-lg-10 mb-5">Start, switch, or advance your career with more than 5,000 courses, Professional
-                  Certificates, and degrees from world-class universities and companies.</p>
+                <h1 className="display-3 fw-bold mb-3">ManavTech, Modern Learning Management.</h1>
+                <p className="pe-lg-10 mb-5">🕓 Fast-Track Your Success: Master Coding Techniques in Record Time</p>
                 <Link href="#" className="btn btn-primary">Join Free Now</Link>
                 <Link href="#" onClick={() => setOpen(true)} className="popup-youtube fs-4 text-inherit ms-3">
                   <Image src='/images/svg/play-btn.svg' alt="" className="me-2" />Watch Demo

@@ -11,7 +11,7 @@ const AcademyStats = () => {
                 <Row>
                     <Col lg={3} md={6} className="border-top-md border-bottom border-end-md ">
                         <StatTopBigIcon
-                            title="Qualified Instructor"
+                            title="Qualified Learners"
                             value="316,000+"
                             iconName="award"
                             colorVariant="info"
@@ -20,7 +20,7 @@ const AcademyStats = () => {
                     <Col lg={3} md={6} className="border-top-md border-bottom border-end-lg ">
                         <StatTopBigIcon
                             title="Course enrolments"
-                            value="1.8 Billion+"
+                            value="0.8 million+"
                             iconName="users"
                             colorVariant="warning"
                         />
@@ -35,7 +35,7 @@ const AcademyStats = () => {
                     </Col>
                     <Col lg={3} md={6} className="border-top-lg border-bottom ">
                         <StatTopBigIcon
-                            title="Online Videos"
+                            title="Live Online"
                             value="179,000+"
                             iconName="film"
                             colorVariant="success"

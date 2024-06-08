@@ -13,7 +13,7 @@ import useMounted from 'hooks/useMounted';
 
 const MostPopularCourses = () => {
   const hasMounted = useMounted();
-  const tabs = ['Development', 'Design', 'Marketing', 'Business', 'Health'];
+  const tabs = ['Development', 'Frontend', 'Design', 'Programming', 'MernStack'];
   let min, max = 0;
   return (
     <Fragment>
@@ -23,7 +23,7 @@ const MostPopularCourses = () => {
             <Col xs={12}>
               <div className="mb-6">
                 <h2 className="mb-1 h1">Most Popular Courses</h2>
-                <p>These are the most popular courses among Geeks Courses learners worldwide in year 2022</p>
+                <p>These are the most popular courses among Manavta Courses learners worldwide in year 2022</p>
               </div>
             </Col>
           </Row>

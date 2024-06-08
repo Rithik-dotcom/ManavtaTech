@@ -17,9 +17,7 @@ const FooterWithLinks = () => {
 							<Image src="/images/brand/logo/logo.svg" alt="" className="logo-inverse" />
 							<div className="mt-4">
 								<p>
-									Geek is feature-rich components and beautifully Bootstrap
-									UIKit for developers, built with bootstrap responsive
-									framework.
+								Fast-Track Your Success: Master Coding Techniques in Record Time
 								</p>
 								{/* social media */}
 								<div className="fs-4 mt-4">
@@ -116,7 +114,7 @@ const FooterWithLinks = () => {
 							<h3 className="fw-bold mb-3">Get in touch</h3>
 							<p>339 McDermott Points Hettingerhaven, NV 15283</p>
 							<p className="mb-1">
-								Email: <Link href="#">support@geeksui.com</Link>
+								Email: <Link href="#">support@manavtaTech.com</Link>
 							</p>
 							<p>
 								Phone:{' '}
@@ -124,10 +122,10 @@ const FooterWithLinks = () => {
 									(000) 123 456 789
 								</span>
 							</p>
-							<div className="d-flex">
-									<Link href="#"><Image src='/images/svg/appstore.svg' alt="" className="img-fluid" /></Link>
-									<Link href="#" className="ms-2"><Image src='/images/svg/playstore.svg' alt="" className="img-fluid" /></Link>
-								</div>
+							{/* <div className="d-flex"> */}
+									{/* <Link href="#"><Image src='/images/svg/appstore.svg' alt="" className="img-fluid" /></Link>
+									<Link href="#" className="ms-2"><Image src='/images/svg/playstore.svg' alt="" className="img-fluid" /></Link> */}
+								{/* </div> */}
 						</div>
 					</Col>
 				</Row>

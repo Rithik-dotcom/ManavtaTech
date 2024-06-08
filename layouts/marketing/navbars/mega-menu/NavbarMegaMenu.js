@@ -34,7 +34,7 @@ const NavbarMegaMenu = () => {
 
 					<div className="d-flex">
 						<Navbar.Brand as={Link} href="/">
-							<Image src='/images/brand/logo/logo.svg' alt="" />
+							{/* <Image src='/images/brand/logo/logo.svg' alt="" /> ManavTa Tech . */} <Link href="#" className="btn btn-outline-secondary ms-3">ManavtaTech .com</Link>
 						</Navbar.Brand>
 						<CategoriesDropDown/>
 					</div>

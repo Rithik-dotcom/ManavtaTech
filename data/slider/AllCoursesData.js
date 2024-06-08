@@ -85,7 +85,7 @@ export const AllCoursesData = [
 		image: '/images/course/course-node.jpg',
 		title: 'Beginning Node.js, Express & MongoDB Development',
 		date_added: 'Added on 5 July, 2021',
-		instructor_name: 'Sina Ray',
+		instructor_name: 'sSina Ray',
 		instructor_image: '/images/avatar/avatar-3.jpg',
 		status: 'Live',
 		level: 'Intermediate',

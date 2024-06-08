@@ -46,7 +46,8 @@ const NavbarDefault = ({ headerstyle, login }) => {
 				<Container fluid className="px-0 ps-2">
 					<Link href="/" passHref legacyBehavior>
 						<Navbar.Brand>
-							<Image src="/images/brand/logo/logo.svg" alt="" />
+							
+							{/* <Image src="/images/brand/logo/logo.svg" alt="" /> */} <h2 style={{color: "indigo"}} >ManavtaTech</h2>
 						</Navbar.Brand>
 					</Link>
 					{hasMounted ?
@@ -86,7 +87,7 @@ const NavbarDefault = ({ headerstyle, login }) => {
 							{hasMounted ? <DocumentMenu /> : null}
 						</Nav>
 						{/* Search Form */}
-						<Form className="mt-3 mt-lg-0 ms-lg-3 d-flex align-items-center">
+						{/* <Form className="mt-3 mt-lg-0 ms-lg-3 d-flex align-items-center">
 							<span className="position-absolute ps-3 search-icon">
 								<i className="fe fe-search"></i>
 							</span>
@@ -96,7 +97,7 @@ const NavbarDefault = ({ headerstyle, login }) => {
 								className="ps-6"
 								placeholder="Search Courses"
 							/>
-						</Form>
+						</Form> */}
 						{/* Right side quick / shortcut menu  */}
 
 						<div className='ms-auto d-flex align-items-center'>

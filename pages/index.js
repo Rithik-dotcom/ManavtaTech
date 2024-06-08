@@ -1,10 +1,11 @@
 // import node module libraries
 import { Fragment, useEffect } from 'react';
 import { Col, Row, Container } from 'react-bootstrap';
+import { HeroAcademy, AcademyStats, MostPopularCourses, BecomeAnInstructor, WhatCustomersSay } from 'sub-components';
 
 // import widget/custom components
 import { CourseSlider, FeaturesList, HeroHeader } from 'widgets';
-
+import AcademyLayout from 'layouts/marketing/AcademyLayout';
 const Home = () => {
 	useEffect(() => {
 		document.body.className = 'bg-light';
@@ -12,12 +13,12 @@ const Home = () => {
 	return (
 		<Fragment>
 			{/*  Page Content  */}
-			<HeroHeader />
+			{/* <HeroHeader /> */}
 
 			{/*  Features list  */}
-			<FeaturesList />
+			{/* <FeaturesList /> */}
 
-			<section className="pt-lg-12 pb-lg-3 pt-8 pb-6">
+			{/* <section className="pt-lg-12 pb-lg-3 pt-8 pb-6">
 				<Container>
 					<Row className="mb-4">
 						<Col>
@@ -28,9 +29,9 @@ const Home = () => {
 						<CourseSlider recommended={true} />
 					</div>
 				</Container>
-			</section>
+			</section> */}
 
-			<section className="pb-lg-3 pt-lg-3">
+			{/* <section className="pb-lg-3 pt-lg-3">
 				<Container>
 					<Row className="mb-4">
 						<Col>
@@ -41,9 +42,9 @@ const Home = () => {
 						<CourseSlider popular={true} />
 					</div>
 				</Container>
-			</section>
+			</section> */}
 
-			<section className="pb-lg-8 pt-lg-3 py-6">
+			{/* <section className="pb-lg-8 pt-lg-3 py-6">
 				<Container>
 					<Row className="mb-4">
 						<Col>
@@ -54,10 +55,24 @@ const Home = () => {
 						<CourseSlider trending={true} />
 					</div>
 				</Container>
-			</section>
-			
+			</section> */}
+			<HeroAcademy />
+
+			{/* Various acedamy statistics  */}
+			<AcademyStats />
+
+			{/* Most Popular Courses */}
+			<MostPopularCourses />
+
+			{/* Become an instructor */}
+			<BecomeAnInstructor />
+
+			{/* What our customers say */}
+			<WhatCustomersSay />
+
 		</Fragment>
 	);
 };
+Home.Layout = AcademyLayout;
 
 export default Home;
