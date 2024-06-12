@@ -12,27 +12,29 @@ const HeroRightImage = () => {
         <Row className="d-flex align-items-center">
           <Col xxl={5} xl={6} lg={6} xs={12} >
             <div>
-              <h1 className="display-2 fw-bold mb-3">Learn today’s most in-
-                <u className="text-warning"><span className="text-primary">demand-skills</span></u>
+              <h1 className="display-2 fw-bold mb-3">ManavtaTech-
+                <u className="text-warning"><span className="text-primary">Modern Learning Management.</span></u>
               </h1>
-              <p className="lead mb-4">Classes & Courses website template to start creating your stunning website. All
-                templates are fully customizable.</p>
+              <p className="lead mb-4">Fast-Track Your Success: Master Coding Techniques in Record Time 🕓 </p>
               <ListGroup as="ul" bsPrefix='list-unstyled' className="mb-5">
                 <ListGroup.Item as="li" bsPrefix="mb-2" >
                   <CheckCircleFill size={12} fill="var(--geeks-success)" />
-                  <span className="ms-2">No credit card required</span>
+                  <span className="ms-2">
+                  Build a Strong Portfolio & Network</span>
                 </ListGroup.Item>
                 <ListGroup.Item as="li" bsPrefix="mb-2" >
                   <CheckCircleFill size={12} fill="var(--geeks-success)" />
-                  <span className="ms-2">Customer service 24/7</span>
+                  <span className="ms-2">
+                  Time Management 101: Balancing Learning with Work and Life Demands</span>
                 </ListGroup.Item>
                 <ListGroup.Item as="li" bsPrefix="mb-2" >
                   <CheckCircleFill size={12} fill="var(--geeks-success)" />
-                  <span className="ms-2">No setup fee</span>
+                  <span className="ms-2">
+                  Future-Proof Your Skills</span>
                 </ListGroup.Item>
                 <ListGroup.Item as="li" bsPrefix="mb-2" >
                   <CheckCircleFill size={12} fill="var(--geeks-success)" />
-                  <span className="ms-2">Cancel any time</span>
+                  <span className="ms-2">Job Portal</span>
                 </ListGroup.Item>
                 <ListGroup.Item as="li" bsPrefix="mb-2" >
                 <Link href="#!" className="btn btn-dark btn-lg">Explore Online Courses</Link>

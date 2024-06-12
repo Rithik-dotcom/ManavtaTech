@@ -6,12 +6,12 @@ const SkillCourseCard = props => {
     const { item } = props;
     return (
         <Card className="mb-4 card-hover border">
-            <Link href={`/Category/${item.title}`}>
+            <Link href={`/Category/${item.category}`}  >
                 <Image src={item.image} alt="writing" className="img-fluid w-100 rounded-top-3" />
             </Link>
             <Card.Body>
                 <h4 className="mb-3">
-                    <Link href={`/Category/${item.title}`} className="text-inherit">{item.title}</Link>
+                    <Link href={`/Category/${item.category}`}  className="text-inherit">{item.title}</Link>
                 </h4>
                 <div className="d-flex align-items-center mb-5 lh-1">
                     <div>
@@ -33,7 +33,7 @@ const SkillCourseCard = props => {
                     </div>
 
                 </div>
-                <Link href={`/Category/${item.title}`}>Enroll Today <span className=""><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                <Link href={`/Category/${item.category}`}  >Enroll Today <span className=""><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                     fill="currentColor" className="bi bi-arrow-right-short" viewBox="0 0 16 16">
                     <path fillRule="evenodd"
                         d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />

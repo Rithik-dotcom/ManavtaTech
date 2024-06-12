@@ -45,10 +45,12 @@ const NavbarDefault = ({ headerstyle, login }) => {
 			>
 				<Container fluid className="px-0 ps-2">
 					<Link href="/" passHref legacyBehavior>
-						<Navbar.Brand>
-							
-							{/* <Image src="/images/brand/logo/logo.svg" alt="" /> */} <h2 style={{color: "indigo"}} >ManavtaTech</h2>
-						</Navbar.Brand>
+						{/* <Navbar.Brand> */}
+
+							{/* <Image src="/images/brand/logo/logo.svg" alt="" /> */}
+							<Image src="/images/courseTwo/main.png" style={{ width: "5vb", height: "5vh" }} alt="" />
+
+						{/* </Navbar.Brand> */}
 					</Link>
 					{hasMounted ?
 						<div className={`navbar-nav navbar-right-wrap ms-auto d-lg-none nav-top-wrap ${login ? (isDesktop || isLaptop ? 'd-none' : 'd-flex') : 'd-none'}`}>
@@ -101,38 +103,38 @@ const NavbarDefault = ({ headerstyle, login }) => {
 						{/* Right side quick / shortcut menu  */}
 
 						<div className='ms-auto d-flex align-items-center'>
-								
-					
-						<Nav className="navbar-nav navbar-right-wrap ms-auto d-flex nav-top-wrap">
-							<span className={login ? 'ms-auto mt-3 mt-lg-0 d-none' : 'ms-auto mt-3 mt-lg-0'}>
-								<Nav.Link
-									href="#"
-									bsPrefix="btn"
-									className="btn btn-white shadow-sm me-2"
-								>
-									Sign In
-								</Nav.Link>
-								<Nav.Link
-									href="#"
-									bsPrefix="btn"
-									className="btn btn-primary shadow-sm"
-								>
-									Sign Up
-								</Nav.Link>
-							</span>
-							{hasMounted ?
-								<span
-									className={`${login
-										? isDesktop || isLaptop
-											? 'd-flex'
-											: 'd-none'
-										: 'd-none'
-										}`}
-								>
-									<QuickMenu />
+
+
+							<Nav className="navbar-nav navbar-right-wrap ms-auto d-flex nav-top-wrap">
+								<span className={login ? 'ms-auto mt-3 mt-lg-0 d-none' : 'ms-auto mt-3 mt-lg-0'}>
+									<Nav.Link
+										href="#"
+										bsPrefix="btn"
+										className="btn btn-white shadow-sm me-2"
+									>
+										Sign In
+									</Nav.Link>
+									<Nav.Link
+										href="#"
+										bsPrefix="btn"
+										className="btn btn-primary shadow-sm"
+									>
+										Sign Up
+									</Nav.Link>
 								</span>
-								: null}
-						</Nav>
+								{hasMounted ?
+									<span
+										className={`${login
+											? isDesktop || isLaptop
+												? 'd-flex'
+												: 'd-none'
+											: 'd-none'
+											}`}
+									>
+										<QuickMenu />
+									</span>
+									: null}
+							</Nav>
 						</div>
 						{/* end of right side quick / shortcut menu  */}
 					</Navbar.Collapse>

@@ -1,6 +1,6 @@
 export const settings = {
     app: {
-        name: "Geeks NextJs",
+        name: "ManavtaTech",
         version: "2.2.1"
     },
     theme: {

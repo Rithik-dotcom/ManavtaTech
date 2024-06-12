@@ -10,6 +10,7 @@ import {
 	ListGroup,
 	Image
 } from 'react-bootstrap';
+import BlankLayout from 'layouts/marketing/BlankLayout';
 import Link from 'next/link';
 
 // import popup youtube video
@@ -24,6 +25,7 @@ import { ReviewsTab, DescriptionTab, TranscriptTab, FAQTab } from 'sub-component
 // import data files
 import { CourseIndex } from 'data/courses/CourseIndexData';
 import { AllCoursesData } from 'data/slider/AllCoursesData';
+import NavbarLanding from 'layouts/marketing/navbars/NavbarLanding';
 
 const CourseSingle = () => {
 	const [isOpen, setOpen] = useState(false);
@@ -34,7 +36,7 @@ const CourseSingle = () => {
 
 			{/* Geeks SEO settings  */}
 			<GeeksSEO title="Course Single | Geeks Nextjs Template" />
-
+			<NavbarLanding center />
 			{/* Page header */}
 			<section className="pt-lg-8 pb-lg-16 pt-8 pb-12 bg-primary">
 				<Container>
@@ -332,5 +334,5 @@ const CourseSingle = () => {
 		</Fragment>
 	);
 };
-
+CourseSingle.Layout = BlankLayout;
 export default CourseSingle;

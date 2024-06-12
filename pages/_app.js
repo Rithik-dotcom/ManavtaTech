@@ -2,7 +2,7 @@
 import Head from 'next/head';
 import { useRouter } from 'next/router'
 import { NextSeo } from 'next-seo'
-
+import Script from 'next/script';
 // import provider and store from redux state management.
 import { Provider } from 'react-redux'
 import { store } from 'store/store'
@@ -18,12 +18,12 @@ import { Fragment } from 'react';
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
   const pageURL = process.env.baseURL + router.pathname;
-  const title = "Geeks UI - Nextjs fully responsive template ";
-  const description = "Geeks is a fully responsive and yet modern premium Nextjs template & snippets. Geek is feature-rich Nextjs components and beautifully designed pages that help you create the best possible website and web application projects. Nextjs Snippet "
-  const keywords = "Geeks UI, Nextjs, Next.js, Course, Sass, landing, Marketing, admin themes, Nextjs admin, Nextjs dashboard, ui kit, web app, multipurpose"
+  const title = "ManavtaTech - Fast Track Your Success";
+  const description = "Geeks is a fully responsive and yet modern premium Nextjs template & snippets. Geek is feature-rich Nextjs components and beautifully designed pages that help you create the best possible website and web application projects. Nextjs Snippet";
+  const keywords = "Geeks UI, Nextjs, Next.js, Course, Sass, landing, Marketing, admin themes, Nextjs admin, Nextjs dashboard, ui kit, web app, multipurpose";
 
   // Identify the layout, which will be applied conditionally
-  const Layout = Component.Layout || (router.pathname.includes('dashboard') ? (router.pathname.includes('instructor') || router.pathname.includes('student') ? DefaultMarketingLayout : DefaultDashboardLayout) : DefaultMarketingLayout)
+  const Layout = Component.Layout || (router.pathname.includes('dashboard') ? (router.pathname.includes('instructor') || router.pathname.includes('student') ? DefaultMarketingLayout : DefaultDashboardLayout) : DefaultMarketingLayout);
 
   return (
     <Fragment>
@@ -32,6 +32,20 @@ function MyApp({ Component, pageProps }) {
         <meta name="keywords" content={keywords} />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
       </Head>
+      <Script
+        id="whatsform-inline-script"
+        strategy="beforeInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.whatsformId = 'KDSWuq';
+            window.whatsformMessage = 'Message on WhatsApp';
+          `,
+        }}
+      />
+      <Script
+        src="https://whatsform.com/launcher.js"
+        strategy="lazyOnload"
+      />
       <NextSeo
         title={title}
         description={description}
@@ -57,7 +71,7 @@ function MyApp({ Component, pageProps }) {
         </Layout>
       </Provider>
     </Fragment>
-  )
+  );
 }
 
-export default MyApp
+export default MyApp;

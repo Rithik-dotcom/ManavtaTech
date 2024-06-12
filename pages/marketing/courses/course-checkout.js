@@ -344,12 +344,12 @@ const CourseCheckout = () => {
 								</Card.Body>
 							</Card>
 							{/*  Card */}
-							<Card className="mb-3 mb-lg-0">
-								{/*  Card header */}
+							{/* <Card className="mb-3 mb-lg-0">
+								
 								<Card.Header>
 									<h3 className="mb-0">Payment Method</h3>
 								</Card.Header>
-								{/*  Card body */}
+						
 								<Card.Body>
 									<Form.Check
 										inline
@@ -372,8 +372,13 @@ const CourseCheckout = () => {
 									{status === 1 ? CreditDebitCardMethod() : ''}
 									{status === 2 ? PayPalMethod() : ''}
 								</Card.Body>
-							</Card>
+							</Card> */}
 						</Col>
+
+
+
+						
+						{/* Right Section */}
 						<Col lg={4} md={12} sm={12}>
 							{/*  Card */}
 							<Card className="border-0 mb-3">
@@ -449,8 +454,8 @@ const CourseCheckout = () => {
 								</div>
 								<hr className="m-0" />
 								<div className="p-4">
-									<Link href="#" className="btn btn-outline-primary">
-										Change the Plan
+									<Link href="https://rzp.io/i/loWfdTId8" className="btn btn-outline-primary">
+										Pay Now
 									</Link>
 								</div>
 							</Card>

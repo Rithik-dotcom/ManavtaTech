@@ -31,9 +31,10 @@ const NavbarLanding = ({ transparent }) => {
 				}`}
 			>
 				<Container className="px-0">
-					<Navbar.Brand as={Link} href="/" className="navbar-brand">
-						<Image src="/images/brand/logo/logo.svg" alt="" />
-					</Navbar.Brand>
+					{/* <Navbar.Brand as={Link} href="/" className="navbar-brand"> */}
+						<Image src="images/courseTwo/main.png" style={{width: "5vb", height: "5vh"}} alt="" />
+
+					{/* </Navbar.Brand> */}
 					<Navbar.Toggle aria-controls="basic-navbar-nav">
 						<span className="icon-bar top-bar mt-0"></span>
 						<span className="icon-bar middle-bar"></span>
@@ -65,14 +66,14 @@ const NavbarLanding = ({ transparent }) => {
 						<Nav className="navbar-nav navbar-right-wrap ms-auto d-flex nav-top-wrap">
 							<div className="mt-3 mt-lg-0 d-flex align-items-center">
 								<DarkLightMode className="me-2"/>
-								<Nav.Link
+								{/* <Nav.Link
 									href="https://themes.getbootstrap.com/store/codescandy/"
 									target="_blank"
 									bsPrefix="btn"
 									className="btn btn-primary"
 								>
 									Buy Now
-								</Nav.Link>
+								</Nav.Link> */}
 							</div>
 						</Nav>
 					</Navbar.Collapse>

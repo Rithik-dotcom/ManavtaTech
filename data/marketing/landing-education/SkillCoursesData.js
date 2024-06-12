@@ -1,41 +1,43 @@
 export const SkillCoursesData = [
 	{
 		id: 1,
-		category: 'Writing',
+		category: 'Trial',
 		image: '/images/education/edu-img-1.jpg',
 		duration: 8,
 		durationUnit: 'Hours',
-		title: 'course-single',
+		title: 'FullStack Weekly Trial Program - New Admission ',
 		rating: 4.9,
-		votes: 31, 
+		votes: 31,
+
 	},
 	{
 		id: 2,
-		category: 'Design',
+		category: 'Frontend',
 		image: '/images/education/edu-img-2.jpg',
 		duration: 12,
 		durationUnit: 'Hours',
-		title: 'UI / UX Design',
+		// title: 'UI / UX Design',
+		title: 'FrontEnd Application Developement',
 		rating: 4.9,
 		votes: 23
 	},
 	{
 		id: 3,
-		category: 'Development',
+		category: 'Fullstack',
 		image: '/images/education/edu-img-3.jpg',
 		duration: 2,
 		durationUnit: 'Hours',
-		title: 'Coding and Development',
+		title: 'FullStack Developement Program',
 		rating: 5.0,
 		votes: 6380
 	},
 	{
 		id: 4,
-		category: 'Photography',
+		category: 'Travel',
 		image: '/images/education/edu-img-4.jpg',
 		duration: 12,
 		durationUnit: 'Hours',
-		title: 'Photography Courses',
+		title: 'Travel Application like MakeMyTrip',
 		rating: 5.0,
 		votes: 221
 	},
@@ -45,37 +47,37 @@ export const SkillCoursesData = [
 		image: '/images/education/edu-img-5.jpg',
 		duration: 9,
 		durationUnit: 'Hours',
-		title: 'Financial Planning',
+		title: 'Fintech Application Like GooglePay',
 		rating: 4.9,
 		votes: 76
 	},
 	{
 		id: 6,
-		category: 'Marketing ',
+		category: 'Social',
 		image: '/images/education/edu-img-6.jpg',
 		duration: 2,
 		durationUnit: 'Hours',
-		title: 'Content Marketing 201',
+		title: 'Social Media Application like FaceBook',
 		rating: 4.9,
 		votes: 43
 	},
 	{
 		id: 7,
-		category: 'Language',
+		category: 'Programming',
 		image: '/images/education/edu-img-7.jpg',
 		duration: 2,
 		durationUnit: 'Weeks',
-		title: 'Learn a Language',
+		title: 'Learn a Programming Language C, C++, Java, JavaScript, Python',
 		rating: 5.0,
 		votes: 34
 	},
 	{
 		id: 8,
-		category: 'Health',
+		category: 'Healthapplication',
 		image: '/images/education/edu-img-8.jpg',
 		duration: 3,
 		durationUnit: 'Weeks',
-		title: 'Health Wellness',
+		title: 'Health Wellness Ecommerce Applications',
 		rating: 4.7,
 		votes: 75
 	}

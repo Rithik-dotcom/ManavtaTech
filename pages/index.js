@@ -1,9 +1,10 @@
 // import node module libraries
-import { Fragment, useEffect } from 'react';
+import { Fragment, useEffect, Suspense } from 'react';
 import { Col, Row, Container } from 'react-bootstrap';
-import { HeroAcademy, AcademyStats, MostPopularCourses, BecomeAnInstructor, WhatCustomersSay } from 'sub-components';
+import { HeroAcademy, AcademyStats, MostPopularCourses, BecomeAnInstructor, WhatCustomersSay, CoursesFeatures4Columns } from 'sub-components';
 import NavbarLanding from 'layouts/marketing/navbars/NavbarLanding';
 import BlankLayout from 'layouts/marketing/BlankLayout';
+import Script from 'next/script';
 
 // import widget/custom components
 import { CourseSlider, FeaturesList, HeroHeader } from 'widgets';
@@ -20,12 +21,17 @@ import {
 import { LogosTopHeading3 } from 'widgets';
 import LogoList2 from 'data/clientlogos/LogoList2';
 import FooterCenter from 'layouts/marketing/footers/FooterWithLinks';
+import Popuptwo from 'components/bootstrap/PopUpTwo/Popuptwo';
+
+
 const Home = () => {
+
 	useEffect(() => {
 		document.body.className = 'bg-light';
 	});
 	return (
 		<Fragment>
+			<Popuptwo/>
 			{/*  Page Content  */}
 			{/* <HeroHeader /> */}
 
@@ -71,25 +77,26 @@ const Home = () => {
 				</Container>
 			</section> */}
 			<NavbarLanding center />
-
+			{/* <Suspense fallback={<Spinner/>}>  */}
 			{/*   section  */}
 			<main>
-
+			
 				{/*  learn today hero section */}
 				<EducationHeroRightImage />
 
 				{/*  trusted */}
-				<LogosTopHeading3
-					title="TRUSTED BY OVER 12,500 GREAT TEAMS"
+				{/* <LogosTopHeading3
+					title="TRUSTED BY OVER 600+ developers "
 					logos={LogoList2}
 					limit={5}
-				/>
+				/> */}
 
 				{/*  Explore skill courses */}
 				<ExploreSkillCourses />
+				<CoursesFeatures4Columns />
 
 				{/*  Building strong foundational skills */}
-				<BuildingSkills />
+				{/* <BuildingSkills /> */}
 
 				{/*  Learn latest Skills */}
 				<LearnLatestSkills />
@@ -113,7 +120,7 @@ const Home = () => {
 			<FooterCenter />
 
 
-
+			{/* </Suspense> */}
 
 
 		</Fragment>

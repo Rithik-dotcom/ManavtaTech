@@ -14,7 +14,9 @@ const FooterWithLinks = () => {
 					<Col lg={4} md={6} sm={12}>
 						{/* about company  */}
 						<div className="mb-4">
-							<Image src="/images/brand/logo/logo.svg" alt="" className="logo-inverse" />
+							{/* <Image src="/images/brand/logo/logo.svg" alt="" className="logo-inverse" /> */}
+
+							<Image src="images/courseTwo/main.png" style={{width: "5vb", height: "5vh"}} alt="" />
 							<div className="mt-4">
 								<p>
 								Fast-Track Your Success: Master Coding Techniques in Record Time

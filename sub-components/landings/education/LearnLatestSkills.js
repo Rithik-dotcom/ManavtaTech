@@ -6,7 +6,7 @@ import ModalVideo from 'react-modal-video';
 
 const LearnLatestSkills = () => {
   const [isOpen, setOpen] = useState(false);
-  const [YouTubeURL] = useState('JRzWRZahOVU');
+  const [YouTubeURL] = useState('KPzZHObH4IU'); 
 
   return (
     <section className="py-lg-10 py-6 bg-gray-100">
@@ -30,7 +30,7 @@ const LearnLatestSkills = () => {
               <Col lg={{ span: 6, offset: 1 }} md={12} xs={12}>
                 <div
                   className="d-flex justify-content-center position-relative rounded py-17 border-gray-100 border border-4 rounded-3 bg-cover"
-                  style={{ backgroundImage: `url(${'/images/education/edu-video-img.jpg'})` }}
+                  style={{ backgroundImage: `url(${'/images/courseTwo/s51bQLwkQIK97Rr6x1pSzg_ins.webp'})` }}
                 >
                   <Link className="popup-youtube icon-shape rounded-circle btn-play icon-xl text-decoration-none"
                     href="#" scroll={false}
