@@ -12,7 +12,7 @@ import NavDropdownMain from 'layouts/marketing/navbars/NavDropdownMain';
 import JobListingRoutes from 'routes/marketing/JobListingRoutes';
 
 const NavbarJobPages = () => {
-	
+	 
 	const [expandedMenu, setExpandedMenu] = useState(false);
 	return (
 		<Fragment>
@@ -24,7 +24,7 @@ const NavbarJobPages = () => {
 			>
 				<Container className="px-0">
 					<Navbar.Brand as={Link} href="/">
-						<Image src='/images/brand/logo/logo.svg' alt="" />
+					<Image src="/images/courseTwo/main.png" style={{ width: "5vb", height: "5vh" }} alt="" />
 					</Navbar.Brand>
 					<Navbar.Toggle aria-controls="navbar-default">
 						<span className="icon-bar top-bar mt-0"></span>
@@ -32,7 +32,7 @@ const NavbarJobPages = () => {
 						<span className="icon-bar bottom-bar"></span>
 					</Navbar.Toggle>
 					<Navbar.Collapse id="navbar-default">
-						<Nav className="ms-auto">
+						{/* <Nav className="ms-auto">
 							{JobListingRoutes.map((item, index) => {
 								if (item.children === undefined) {
 									return (
@@ -53,11 +53,11 @@ const NavbarJobPages = () => {
 									);
 								}
 							})}
-							<DocumentMenu className = "pt-1"/>
+							// <DocumentMenu className = "pt-1"/> */}
 							<div className="ms-6 mt-3 mt-lg-0">
 								<div className="d-flex align-items-center">
 									<DarkLightMode className="me-2" /> 
-									<Nav.Link
+									{/* <Nav.Link
 										as={Link}
 										href="#"
 										bsPrefix="btn"
@@ -72,12 +72,12 @@ const NavbarJobPages = () => {
 										className="btn btn-primary"
 									>
 										Sign Up
-									</Nav.Link>
+									</Nav.Link> */}
 								</div>
 							</div>
-							<span className={`ms-auto mt-3 mt-lg-0`}>
+							{/* <span className={`ms-auto mt-3 mt-lg-0`}>
 							</span>
-						</Nav>
+						</Nav> */}
 					</Navbar.Collapse>
 				</Container>
 			</Navbar>

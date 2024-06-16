@@ -44,14 +44,14 @@ const NavbarDefault = ({ headerstyle, login }) => {
 				className="navbar p-2 navbar-default py-2"
 			>
 				<Container fluid className="px-0 ps-2">
-					<Link href="/" passHref legacyBehavior>
+				<Navbar.Brand as={Link} href="/" className="navbar-brand">
 						{/* <Navbar.Brand> */}
 
 							{/* <Image src="/images/brand/logo/logo.svg" alt="" /> */}
 							<Image src="/images/courseTwo/main.png" style={{ width: "5vb", height: "5vh" }} alt="" />
 
 						{/* </Navbar.Brand> */}
-					</Link>
+					</Navbar.Brand>
 					{hasMounted ?
 						<div className={`navbar-nav navbar-right-wrap ms-auto d-lg-none nav-top-wrap ${login ? (isDesktop || isLaptop ? 'd-none' : 'd-flex') : 'd-none'}`}>
 							<QuickMenu />
@@ -64,10 +64,10 @@ const NavbarDefault = ({ headerstyle, login }) => {
 					</Navbar.Toggle>
 					<Navbar.Collapse id="basic-navbar-nav">
 						<Nav>
-							{NavbarDefaultRoutes.map((item, index) => {
+							{NavbarDefaultRoutes.slice(1, 4).map((item, index) => {
 								if (item.children === undefined) {
 									return (
-										<Nav.Link
+					 					<Nav.Link
 											key={index}
 											as={Link}
 											href={item.link}>

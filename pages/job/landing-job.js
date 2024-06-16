@@ -11,15 +11,16 @@ import LogoList2 from 'data/clientlogos/LogoList2';
 
 // import your layout to override default layout 
 import JobListingLayout from 'layouts/marketing/JobListingLayout';
-
+import Popupjob from 'components/bootstrap/PopUpTwo/Popupjob';
 const LandingJob = () => {
     return (
         <Fragment>
 
             {/* Geeks SEO settings  */}
-            <GeeksSEO title="Jobs | Geeks Nextjs Template" />
+            <GeeksSEO title="Jobs | ManavtaTech" />
 
             <main>
+                <Popupjob />
                 {/* Find your dream job section */}
                 <FindYourDreamJob />
 

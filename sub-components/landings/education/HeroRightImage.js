@@ -37,8 +37,8 @@ const HeroRightImage = () => {
                   <span className="ms-2">Job Portal</span>
                 </ListGroup.Item>
                 <ListGroup.Item as="li" bsPrefix="mb-2" >
-                <Link href="#!" className="btn btn-dark btn-lg">Explore Online Courses</Link>
-                <Link href="/job/landing-job" className="btn btn-primary btn-lg ms-2">Job-Portal</Link>
+                <Link href="/Category/Trial" className="btn btn-dark btn-lg">Explore Online Courses</Link>
+                {/* <Link href="/job/landing-job" className="btn btn-primary btn-lg ms-2">Job-Portal</Link> */}
 
                 </ListGroup.Item>
               </ListGroup>

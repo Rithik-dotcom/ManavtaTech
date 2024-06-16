@@ -1,31 +1,30 @@
 export const TestimonialsList = [
 	{
 		id: 1,
-		name: 'Barry Watson',
-		designation: 'Web Developer,UK',
-		image: '/images/avatar/avatar-1.jpg',
-		content:
-			'I started at stage zero. With Geeks I was able to start learning online and eventually build up enough knowledge and skills to transition into a well-paying career.',
+		name: 'Vishal Shrivastava',
+		designation: 'Web Developer, Amazon',
+		image: '/images/avatar/1660524909514.jpeg',
+		content: 'I cant thank Manavta Technology enough for their incredible Fullstack Development Program. The curriculum was well-structured and covered everything from front-end to back-end technologies, including AI and machine learning. The hands-on projects were particularly valuable, giving me real-world experience that was instrumental in landing my job at Amazon. The support from instructors and the community was outstanding, and I felt well-prepared for every interview. Highly recommend this program to anyone looking to fast-track their tech career!',
 		rating: 5.0,
 		color: 'primary'
 	},
 	{
 		id: 2,
-		name: 'Linda Shenoy',
-		designation: 'Developer and Bootcamp Instructor',
-		image: '/images/avatar/avatar-2.jpg',
+		name: 'Ankit Jain',
+		designation: 'Senior Developer, Meta',
+		image: '/images/avatar/1674730161820.jpeg',
 		content:
-			'Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vulputate euismod justo in consequat. Sed tempus elementum urnanisl et lacus.',
+			'Manavta Technologys Fullstack Development Program was a game-changer for me. Coming from a non-technical background, I was initially intimidated by coding. However, the programs step-by-step approach, practical assignments, and continuous support helped me gain confidence and expertise in a short period. The real-world projects, especially building applications similar to Myntra, were incredibly beneficial. Thanks to Manavta Technology, I secured a frontend developer position at Myntra, and I couldnt be happier!',
 		rating: 5.0,
 		color: 'info'
 	},
 	{
 		id: 3,
-		name: 'Jean Watson',
-		designation: 'Engineering Architect',
-		image: '/images/avatar/avatar-3.jpg',
+		name: 'Rahul S',
+		designation: 'Software Developer, Jio Cinema',
+		image: '/images/avatar/1697530945572.jpeg',
 		content:
-			'Sed pretium risus magna, ac efficitur nunc rutrum imperdiet. Vivamus sed ante sed mi fermentum tempus. Nullam finibus augue eget felis efficitur semper.',
+			'Enrolling in the Fullstack Development Program at Manavta Technology was one of the best decisions I made for my career. The programs focus on both theoretical knowledge and practical application ensured I was job-ready upon completion. the community provided additional support and motivation. The skills I gained from working on projects similar to Flipkart were directly applicable in my job search, leading to my successful placement as a Fullstack Developer at Flipkart. I highly recommend this program to anyone looking to excel in the tech industry!',
 		rating: 5.0,
 		color: 'danger'
 	},

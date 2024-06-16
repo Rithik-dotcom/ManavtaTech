@@ -76,7 +76,7 @@ const QuickMenu = () => {
     return (
         <Fragment>
             <DarkLightMode />
-            <ListGroup as="ul" bsPrefix='navbar-nav' className="navbar-right-wrap ms-2 d-flex nav-top-wrap">
+            {/* <ListGroup as="ul" bsPrefix='navbar-nav' className="navbar-right-wrap ms-2 d-flex nav-top-wrap">
                 <Dropdown as="li">
                     <Dropdown.Toggle as="a"
                         bsPrefix=' '
@@ -107,7 +107,7 @@ const QuickMenu = () => {
                         </Dropdown.Item>
                     </Dropdown.Menu>
                 </Dropdown>
-                {/* <Dropdown as="li" className="ms-2">
+                <Dropdown as="li" className="ms-2">
                     <Dropdown.Toggle
                         as="a"
                         bsPrefix=' '
@@ -152,8 +152,8 @@ const QuickMenu = () => {
                             <i className="fe fe-power me-2"></i> Sign Out
                         </Dropdown.Item>
                     </Dropdown.Menu>
-                </Dropdown> */}
-            </ListGroup>
+                </Dropdown>
+            </ListGroup> */}
         </Fragment>
     );
 }

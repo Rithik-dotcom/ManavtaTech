@@ -72,14 +72,12 @@ const DescriptionTab = () => {
 				</Col>
 			</Row>
 			<p>
-				Maecenas viverra condimentum nulla molestie condimentum. Nunc ex libero,
-				feugiat quis lectus vel, ornare euismod ligula. Aenean sit amet arcu
-				nulla.
+			Planning and Development: Design and develop a full-stack capstone project.
+			Finalization: Testing, debugging, and presentation of the project.
 			</p>
 			<p>
-				Duis facilisis ex a urna blandit ultricies. Nullam sagittis ligula non
-				eros semper, nec mattis odio ullamcorper. Phasellus feugiat sit amet leo
-				eget consectetur.
+			Advanced Concepts: Functions, closures, event handling, Promises, Async/Await.
+			JavaScript Frameworks: Overview of frameworks; focus on React basics, components, props, state, JSX.
 			</p>
 		</Fragment>
 	);

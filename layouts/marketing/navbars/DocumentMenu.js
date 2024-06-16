@@ -40,7 +40,7 @@ const DocumentMenu = (props) => {
 
             >
                 <NavDropdown.Item
-                    href="/dashboard/documentation"
+                     href="/Category/Trial"
                     className="py-2 px-3"
                 >
                     <div className="d-flex align-items-center">
@@ -48,7 +48,7 @@ const DocumentMenu = (props) => {
                         <DocumentationsMenuHTML />
                     </div>
                 </NavDropdown.Item>
-                <NavDropdown.Item
+                {/* <NavDropdown.Item
                     href="/dashboard/changelog"
                     className="py-2 px-3"
                 >
@@ -56,7 +56,7 @@ const DocumentMenu = (props) => {
                         <i className="fe fe-layers fs-3 text-primary"></i>
                         <ChangelogMenuHTML />
                     </div>
-                </NavDropdown.Item>
+                </NavDropdown.Item> */}
             </NavDropdown>
         )
     }
@@ -71,7 +71,7 @@ const DocumentMenu = (props) => {
                 show
             >
                 <NavDropdown.Item
-                    href="/dashboard/documentation"
+                     href="/Category/Trial"
                     className="py-2 px-3"
                 >
                     <div className="d-flex align-items-center">
@@ -79,7 +79,7 @@ const DocumentMenu = (props) => {
                         <DocumentationsMenuHTML />
                     </div>
                 </NavDropdown.Item>
-                <NavDropdown.Item
+                {/* <NavDropdown.Item
                     href="/dashboard/changelog"
                     className="py-2 px-3"
                 >
@@ -87,7 +87,7 @@ const DocumentMenu = (props) => {
                         <i className="fe fe-layers fs-3 text-primary"></i>
                         <ChangelogMenuHTML />
                     </div>
-                </NavDropdown.Item>
+                </NavDropdown.Item> */}
             </NavDropdown>
         )
     }

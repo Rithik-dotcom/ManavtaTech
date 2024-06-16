@@ -16,10 +16,18 @@ const FooterWithLinks = () => {
 						<div className="mb-4">
 							{/* <Image src="/images/brand/logo/logo.svg" alt="" className="logo-inverse" /> */}
 
-							<Image src="images/courseTwo/main.png" style={{width: "5vb", height: "5vh"}} alt="" />
+							<div as={Link} href="/" className="navbar-brand">
+								{/* <Navbar.Brand> */}
+
+								{/* <Image src="/images/brand/logo/logo.svg" alt="" /> */}
+								<Image src="/images/courseTwo/main.png" style={{ width: "5vb", height: "5vh" }} alt="" />
+
+								{/* </Navbar.Brand> */}
+							</div>
+							<p>ManavtaTech.com</p>
 							<div className="mt-4">
 								<p>
-								Fast-Track Your Success: Master Coding Techniques in Record Time
+									Fast-Track Your Success: Master Coding Techniques in Record Time
 								</p>
 								{/* social media */}
 								<div className="fs-4 mt-4">
@@ -125,16 +133,16 @@ const FooterWithLinks = () => {
 								</span>
 							</p>
 							{/* <div className="d-flex"> */}
-									{/* <Link href="#"><Image src='/images/svg/appstore.svg' alt="" className="img-fluid" /></Link>
+							{/* <Link href="#"><Image src='/images/svg/appstore.svg' alt="" className="img-fluid" /></Link>
 									<Link href="#" className="ms-2"><Image src='/images/svg/playstore.svg' alt="" className="img-fluid" /></Link> */}
-								{/* </div> */}
+							{/* </div> */}
 						</div>
 					</Col>
 				</Row>
 				<Row className="align-items-center g-0 border-top py-2 mt-6">
 					{/* Desc  */}
 					<Col lg={4} md={5} sm={12}>
-						<span>© 2023 Geeks-UI, Inc. All Rights Reserved</span>
+						<span>© 2024 ManavtaTech.com, Inc. All Rights Reserved</span>
 					</Col>
 					{/*  Links  */}
 					<Col

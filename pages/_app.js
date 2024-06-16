@@ -19,8 +19,8 @@ function MyApp({ Component, pageProps }) {
   const router = useRouter();
   const pageURL = process.env.baseURL + router.pathname;
   const title = "ManavtaTech - Fast Track Your Success";
-  const description = "Geeks is a fully responsive and yet modern premium Nextjs template & snippets. Geek is feature-rich Nextjs components and beautifully designed pages that help you create the best possible website and web application projects. Nextjs Snippet";
-  const keywords = "Geeks UI, Nextjs, Next.js, Course, Sass, landing, Marketing, admin themes, Nextjs admin, Nextjs dashboard, ui kit, web app, multipurpose";
+  const description = "Aim's to understand Latest Technology in Less Time";
+  const keywords = "Frontend Developement, Nextjs, Next.js, Course, Sass, landing, Marketing, admin themes, Nextjs admin, Nextjs dashboard, ui kit, web app, multipurpose, Fullstack";
 
   // Identify the layout, which will be applied conditionally
   const Layout = Component.Layout || (router.pathname.includes('dashboard') ? (router.pathname.includes('instructor') || router.pathname.includes('student') ? DefaultMarketingLayout : DefaultDashboardLayout) : DefaultMarketingLayout);
@@ -57,10 +57,10 @@ function MyApp({ Component, pageProps }) {
           site_name: process.env.siteName,
           images: [
             {
-              url: '/images/og/geeks-ui-next-js-default-og-image.jpg',
+              url: '/images/courseTwo/display.jpg',
               width: 1200,
               height: 630,
-              alt: 'Geeks UI NextJS',
+              alt: 'ManavtaTech.com',
             },
           ],
         }}

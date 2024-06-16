@@ -4,6 +4,7 @@ export const ComparePlansData = [
 	{
 		id: uuid(),
 		plantitle: 'Free',
+		link: "https://pages.razorpay.com/stores/trial",
 		description: ` To start your learning to day you will get only
         <span class="text-dark fw-medium">free Course</span> access.`,
 		monthly: 0,
@@ -23,6 +24,7 @@ export const ComparePlansData = [
 	{
 		id: uuid(),
 		plantitle: 'Growth',
+		link: "https://pages.razorpay.com/stores/trial",
 		description: `Access all
         <span class="text-dark fw-medium">premium courses, workshops, and mobile apps.</span>
         Renewed monthly.`,
@@ -43,6 +45,7 @@ export const ComparePlansData = [
 	{
 		id: uuid(),
 		plantitle: 'Enterprise',
+		link: "https://pages.razorpay.com/stores/trial",
 		description: `Upto 10 member access everything. Save
         <span class="text-primary fw-medium">$78 </span>per year! Renewed yearly.`,
 		monthly: 139,

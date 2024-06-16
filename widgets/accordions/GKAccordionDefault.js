@@ -70,7 +70,7 @@ const GKAccordionDefault = ({ accordionItems, itemClass }) => {
 							return (
                                 <ListGroup.Item
 									key={index}
-									as="li"
+									as="li" 
 									className={`${itemClass ? itemClass : ''}`}
 								>
 									<ContextAwareToggle eventKey={item.id}>

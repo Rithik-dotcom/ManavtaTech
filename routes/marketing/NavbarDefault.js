@@ -141,6 +141,83 @@ const NavbarDefault = [
 				link: '/marketing/course-category'
 			}
 		]
+	},{
+		id: uuid(),
+		menuitem: 'Program',
+		link: '#',
+		children: [
+			{
+				id: uuid(),
+				header: true,
+				header_text: 'All Programs'
+			},
+			{
+				id: uuid(),
+				menuitem: 'Trial',
+				link: '/marketing/landings/landing-education/',
+				badgecolor: 'primary',
+				badge: 'New'
+			},
+			{
+				id: uuid(),
+				menuitem: 'FrontEnd',
+				link: '/marketing/landings/home-academy/'
+			},
+			{
+				id: uuid(),
+				menuitem: 'FullStack',
+				link: '/marketing/landings/landing-courses'
+			},
+		]
+	},
+	{
+		id: uuid(),
+		menuitem: 'Job Board',
+		link: '#',
+		children: [
+			{
+				id: uuid(),
+				header: true,
+				header_text: 'Job Portal'
+			},
+			{ 
+				id: uuid(),
+				menuitem: 'Openings',
+				link: '/job/landing-job',
+				badgecolor: 'primary',
+				badge: 'New'
+			},
+			{
+				id: uuid(),
+				menuitem: 'Achievers',
+				link: '/pdf/UPDATED.pdf',
+				badgecolor: 'primary',
+				
+			},
+		
+		]
+	},
+	{
+		id: uuid(),
+		menuitem: 'Free Access',
+		link: '#',
+		children: [
+			{
+				id: uuid(),
+				header: true,
+				header_text: 'Watch Online'
+			},
+			{
+				id: uuid(),
+				menuitem: 'FrontEnd',
+				link: '/marketing/landings/home-academy/'
+			},
+			{
+				id: uuid(),
+				menuitem: 'FullStack',
+				link: '/marketing/landings/landing-courses'
+			},
+		]
 	},
 	{
 		id: uuid(),

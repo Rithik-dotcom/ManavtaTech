@@ -33,7 +33,7 @@ export const SkillCoursesData = [
 	},
 	{
 		id: 4,
-		category: 'Travel',
+		category: 'Trial',
 		image: '/images/education/edu-img-4.jpg',
 		duration: 12,
 		durationUnit: 'Hours',
@@ -43,7 +43,7 @@ export const SkillCoursesData = [
 	},
 	{
 		id: 5,
-		category: 'Financial',
+		category: 'Trial',
 		image: '/images/education/edu-img-5.jpg',
 		duration: 9,
 		durationUnit: 'Hours',
@@ -53,7 +53,7 @@ export const SkillCoursesData = [
 	},
 	{
 		id: 6,
-		category: 'Social',
+		category: 'Trial',
 		image: '/images/education/edu-img-6.jpg',
 		duration: 2,
 		durationUnit: 'Hours',
@@ -63,7 +63,7 @@ export const SkillCoursesData = [
 	},
 	{
 		id: 7,
-		category: 'Programming',
+		category: 'Trial',
 		image: '/images/education/edu-img-7.jpg',
 		duration: 2,
 		durationUnit: 'Weeks',
@@ -73,7 +73,7 @@ export const SkillCoursesData = [
 	},
 	{
 		id: 8,
-		category: 'Healthapplication',
+		category: 'Trial',
 		image: '/images/education/edu-img-8.jpg',
 		duration: 3,
 		durationUnit: 'Weeks',

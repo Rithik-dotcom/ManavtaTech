@@ -93,20 +93,20 @@ const Home = () => {
 
 				{/*  Explore skill courses */}
 				<ExploreSkillCourses />
-				<CoursesFeatures4Columns />
+				{/* <CoursesFeatures4Columns /> */}
 
 				{/*  Building strong foundational skills */}
 				{/* <BuildingSkills /> */}
-
+				<UpcomingWebinars />
 				{/*  Learn latest Skills */}
 				<LearnLatestSkills />
-
+				
 				{/*  Features With Bullets */}
 				<hr className="my-0 bg-transparent text-white" />
-				<EducationFeaturesWithBullets />
+				{/* <EducationFeaturesWithBullets /> */}
 
 				{/*  upcoming webinars */}
-				<UpcomingWebinars />
+			
 
 				{/*  find right course */}
 				<FindRightCourse />

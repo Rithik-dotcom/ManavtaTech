@@ -27,7 +27,7 @@ const WebinarCard = props => {
             <span>{item.time}</span>
           </div>
         </div>
-        <Link href="#!" className="btn btn-light-primary text-primary">Register Now</Link>
+        <Link href="Category/Trial" className="btn btn-light-primary text-primary">Register Now</Link>
       </Card.Body>
     </Card>
   )

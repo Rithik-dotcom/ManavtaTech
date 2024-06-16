@@ -27,7 +27,7 @@ import { AllCoursesData } from 'data/slider/AllCoursesData';
 
 const CourseSingle = () => {
 	const [isOpen, setOpen] = useState(false);
-	const [YouTubeURL] = useState('JRzWRZahOVU');
+	const [YouTubeURL] = useState('S7dfp1FxPU8');
 
 	return (
 		<Fragment>
@@ -42,13 +42,10 @@ const CourseSingle = () => {
 						<Col xl={7} lg={7} md={12} sm={12}>
 							<div>
 								<h1 className="text-white display-4 fw-semi-bold">
-									Getting Started with JavaScript
+								Accelerate Your Career: Fast-Track Fullstack Development Program
 								</h1>
 								<p className="text-white mb-6 lead">
-									JavaScript is the popular programming language which powers
-									web pages and web applications. This course will get you
-									started coding in JavaScript.
-								</p>
+								Designed to equip you with comprehensive web development skills in a shorter timeframe. offers immersive training in front-end and back-end technologies, as well as AI and machine learning integration. You will work on real-world projects, building applications similar to Amazon, Myntra, and Flipkart, ensuring you are job-ready upon completion. With personalized support, hands-on assignments, and a focus on practical knowledge, our program fast-tracks your journey to becoming a fullstack developer.</p>
 								<div className="d-flex align-items-center">
 									<GKTippy content="Add to Bookmarks" >
 										<Link href="#" className="bookmark text-white text-decoration-none"><i className="fe fe-bookmark text-white-50 me-2"></i> Bookmark</Link>
@@ -114,8 +111,8 @@ const CourseSingle = () => {
 										{[
 											'Contents',
 											'Description',
-											'Reviews',
-											'Transcript',
+											// 'Reviews',
+											// 'Transcript',
 											'FAQ'
 										].map((item, index) => (
 											<Nav.Item key={index}>
@@ -166,7 +163,7 @@ const CourseSingle = () => {
 									<div
 										className="d-flex justify-content-center position-relative rounded py-10 border-white border rounded-3 bg-cover"
 										style={{
-											background: `url('/images/course/course-javascript.jpg')`,
+											background: `url('/images/course/ManavtaTech(1).png')`,
 											backgroundRepeat: 'no-repeat',
 											backgroundSize: 'cover',
 											backgroundPosition: 'top center'
@@ -198,11 +195,11 @@ const CourseSingle = () => {
 										<del className="fs-4 text-muted">$750</del>
 									</div>
 									<div className="d-grid">
-										<Link href="/marketing/courses/course-checkout" className="btn btn-primary mb-2  ">
-											Start Free Month
+									<Link href="/marketing/courses/course-checkout" className="btn btn-primary mb-2  ">
+											Enroll 
 										</Link>
-										<Link href="/marketing/pages/pricing/" className="btn btn-outline-primary">
-											Get Full Access
+										<Link href="/pdf/UPDATED.pdf" download="UPDATED.pdf" className="btn btn-outline-primary">
+											Achievement Report
 										</Link>
 									</div>
 								</Card.Body>
@@ -216,9 +213,9 @@ const CourseSingle = () => {
 								{/* Card Body */}
 								<Card.Body className="p-0">
 									<ListGroup variant="flush">
-										<ListGroup.Item>
-											<i className="fe fe-play-circle align-middle me-2 text-primary"></i>
-											12 hours video
+									<ListGroup.Item>
+											<i className="fe fe-play-circle align-middle me-2 text-danger"></i>
+											Live Session 
 										</ListGroup.Item>
 										<ListGroup.Item>
 											<i className="fe fe-award me-2 align-middle text-success"></i>
@@ -226,7 +223,7 @@ const CourseSingle = () => {
 										</ListGroup.Item>
 										<ListGroup.Item>
 											<i className="fe fe-calendar align-middle me-2 text-info"></i>
-											12 Article
+											Learner Weekly Reports
 										</ListGroup.Item>
 										<ListGroup.Item>
 											<i className="fe fe-video align-middle me-2 text-secondary"></i>
@@ -246,7 +243,7 @@ const CourseSingle = () => {
 									<div className="d-flex align-items-center">
 										<div className="position-relative">
 											<Image
-												src='/images/avatar/avatar-1.jpg'
+												src='/images/svg/main.svg'
 												alt=""
 												className="rounded-circle avatar-xl"
 											/>
@@ -257,7 +254,7 @@ const CourseSingle = () => {
 												data-placement="top"
 												title="Verifed">
 												<Image
-													src='/images/svg/checked-mark.svg'
+												   src='/images/svg/checked-mark.svg'
 													alt=""
 													height="30"
 													width="30"
@@ -265,8 +262,8 @@ const CourseSingle = () => {
 											</Link>
 										</div>
 										<div className="ms-4">
-											<h4 className="mb-0">Jenny Wilson</h4>
-											<p className="mb-1 fs-6">Front-end Developer, Designer</p>
+										<h4 className="mb-0">Rithik Singh R</h4>
+											<p className="mb-1 fs-6">FullStack Developer, Designer</p>
 											<span className="fs-6">
 												<span className="text-warning">4.5</span>
 												<span className="mdi mdi-star text-warning me-2"></span>
@@ -295,9 +292,11 @@ const CourseSingle = () => {
 										</Col>
 									</Row>
 									<p>
-										I am an Innovation designer focussing on UX/UI based in
-										Berlin. As a creative resident at Figma explored the city of
-										the future and how new technologies.
+									I am a Fullstack Trainer based in Bangalore, specializing in developing and mentoring 
+									future-ready developers. As a creative resident at Figma, I explored the potential of AI 
+									and machine learning technologies and how they are shaping the future of urban environments.
+									 My focus is on equipping students with the skills needed to build comprehensive web 
+									 applications, similar to platforms like Amazon, Myntra, and Flipkart.
 									</p>
 									<Link
 										href="/marketing/instructor/instructor-edit-profile/"
@@ -309,7 +308,7 @@ const CourseSingle = () => {
 						</Col>
 					</Row>
 					{/* Card */}
-					<div className="pt-12 pb-3">
+					{/* <div className="pt-12 pb-3">
 						<Row className="d-md-flex align-items-center mb-4">
 							<Col lg={12} md={12} sm={12}>
 								<h2 className="mb-0">Related Courses</h2>
@@ -326,7 +325,7 @@ const CourseSingle = () => {
 									</Col>
 								))}
 						</Row>
-					</div>
+					</div> */}
 				</Container>
 			</section>
 		</Fragment>

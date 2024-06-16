@@ -1,6 +1,6 @@
 // import node module libraries
 import { Col, Row, Container, Button, Image } from 'react-bootstrap';
-
+import Link from 'next/link'; 
 const FindRightCourse = () => {
     return (
         <section className="pb-lg-10">
@@ -11,9 +11,9 @@ const FindRightCourse = () => {
                             <Row className="align-items-center">
                                 <Col xl={{ offset: 1, span: 5 }} md={6} xs={12}>
                                     <div>
-                                        <h2 className="h1 text-white mb-3">Let’s find the right course for you!</h2>
-                                        <p className="text-white fs-4">…and achieve their learning goals. With our expert tutors, your goals are  closer  than ever!</p>
-                                        <Button variant='dark'>Start learning</Button>
+                                        <h2 className="h1 text-white mb-3">Land Your Dream Job with Our Placement-Ready Courses!</h2>
+                                        <p className="text-white fs-4">Join Today and Get the Skills and Support You Need to Secure Top Job Offers with Our Expert Guidance!</p>
+                                        <Link href="Category/Trial" className="btn btn-light-primary text-primary"> Start learning</Link>
                                     </div>
                                 </Col>
                                 <Col xl={6} md={6} xs={12}>

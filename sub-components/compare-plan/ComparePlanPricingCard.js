@@ -33,7 +33,7 @@ const ComparePlanPricingCard = ( {content} ) => {
 						></p>
 						{PlanPricing(plan.monthly)}
 						<Link
-                            href="#"
+                            href={plan.link}
                             className={`btn btn-${
 								plan.buttonClass ? plan.buttonClass : 'outline-primary'
 							}`}>

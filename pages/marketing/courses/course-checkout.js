@@ -14,7 +14,7 @@ import {
 	OverlayTrigger,
 	Tooltip
 } from 'react-bootstrap';
-
+import { ComparePlansTable, DeveloperGeeks, FAQs, PricingPlans }  from 'sub-components';
 // import widget/custom components
 import { FormSelect, PageHeading, GeeksSEO } from 'widgets';
 
@@ -225,124 +225,10 @@ const CourseCheckout = () => {
 			{/*  Content */}
 			<section className="py-6">
 				<Container>
-					<Row>
-						<Col xl={8} lg={8} md={12} sm={12}>
+					{/* <Row>
+						<Col xl={8} lg={8} md={12} sm={12}> */}
 							{/*  Card */}
-							<Card className="mb-4">
-								{/*  Card header */}
-								<Card.Header>
-									<h3 className="mb-0">Billing Address </h3>
-								</Card.Header>
-								{/*  Card body */}
-								<Card.Body>
-									{/*  Form */}
-									<Form className="row">
-										{/*  First name  */}
-										<Col md={6} sm={12} className="mb-3">
-											<Form.Group controlId="fname">
-												<Form.Label>First Name</Form.Label>
-												<Form.Control
-													type="text"
-													placeholder="First Name"
-													required
-												/>
-											</Form.Group>
-										</Col>
-										{/*  Last name  */}
-										<Col md={6} sm={12} className="mb-3">
-											<Form.Group controlId="lname">
-												<Form.Label>Last Name</Form.Label>
-												<Form.Control
-													type="text"
-													placeholder="Last Name"
-													required
-												/>
-											</Form.Group>
-										</Col>
-										{/*  Phone number  */}
-										<Col md={12} sm={12} className="mb-3">
-											<Form.Group controlId="phone">
-												<Form.Label>
-													Phone Number{' '}
-													<span className="text-muted">(Optional)</span>
-												</Form.Label>
-												<Form.Control
-													type="text"
-													placeholder="Phone"
-													required
-												/>
-											</Form.Group>
-										</Col>
-										{/*  Address  */}
-										<Col md={12} sm={12} className="mb-3">
-											<Form.Group controlId="address">
-												<Form.Label>Address Line 1</Form.Label>
-												<Form.Control
-													type="text"
-													placeholder="Address"
-													required
-												/>
-											</Form.Group>
-										</Col>
-										{/*  Address  */}
-										<Col md={12} sm={12} className="mb-3">
-											<Form.Group controlId="address2">
-												<Form.Label>
-													Address Line 2{' '}
-													<span className="text-muted">(Optional)</span>
-												</Form.Label>
-												<Form.Control
-													type="text"
-													placeholder="Address"
-													required
-												/>
-											</Form.Group>
-										</Col>
-										{/*  State */}
-										<Col md={4} sm={12} className="mb-3">
-											<Form.Group className="mb-3" controlId="formState">
-												<Form.Label>State</Form.Label>
-												<FormSelect options={statelist} />
-											</Form.Group>
-										</Col>
-										{/*  Country  */}
-										<Col md={4} sm={12} className="mb-3">
-											<Form.Group
-												className="mb-3"
-												controlId="formBillingCountry"
-											>
-												<Form.Label>Country</Form.Label>
-												<FormSelect options={countrylist} />
-											</Form.Group>
-										</Col>
-										{/*  Zip code  */}
-										<Col md={4} sm={12} className="mb-3">
-											<Form.Group controlId="zipCode">
-												<Form.Label>Zip/Postal Code</Form.Label>
-												<Form.Control type="text" placeholder="Zip" required />
-											</Form.Group>
-										</Col>
-										<Col sm={12} md={12} lg={12}>
-											{/*  Checkbox  */}
-											<Form.Group controlId="shippingAddress">
-												<Form.Check
-													type="checkbox"
-													label="Shipping address is the same as my billing address"
-												/>
-											</Form.Group>
-											{/*  Checkbox  */}
-											<Form.Group controlId="saveCard">
-												<Form.Check
-													type="checkbox"
-													checked
-													label="Save this information for next time"
-													onChange={onChange}
-												/>
-											</Form.Group>
-										</Col>
-									</Form>
-								</Card.Body>
-							</Card>
+						
 							{/*  Card */}
 							{/* <Card className="mb-3 mb-lg-0">
 								
@@ -373,116 +259,23 @@ const CourseCheckout = () => {
 									{status === 2 ? PayPalMethod() : ''}
 								</Card.Body>
 							</Card> */}
-						</Col>
+
+<PricingPlans />
+
+{/* compare plan & additional features */}
+{/* <ComparePlansTable /> */}
+
+{/* FAQs section */}
+<FAQs />
+
+						{/* </Col> */}
 
 
 
 						
 						{/* Right Section */}
-						<Col lg={4} md={12} sm={12}>
-							{/*  Card */}
-							<Card className="border-0 mb-3">
-								{/*  Card body */}
-								<div className="p-5 text-center">
-									<Badge bg="warning">Selected Plan</Badge>
-									<div className="mb-5 mt-3">
-										<h1 className="fw-bold">Individual</h1>
-										<p className="mb-0 ">
-											Access all{' '}
-											<span className="text-dark fw-medium">
-												premium courses, workshops, and mobile apps.
-											</span>{' '}
-											Renewed monthly.
-										</p>
-									</div>
-									<div className="d-flex justify-content-center">
-										<span className="h3 mb-0 fw-bold text-primary">$</span>
-										<div className="display-4 fw-bold text-primary">39</div>
-										<span className=" align-self-end mb-1">/Monthly</span>
-									</div>
-								</div>
-								<hr className="m-0" />
-								<div className="p-5">
-									<h4 className="fw-bold mb-4">
-										Everything in Starter, plus:{' '}
-									</h4>
-									{/*  List */}
-									<ListGroup as="ul" className="mb-0" bsPrefix="list-unstyled">
-										<ListGroup.Item as="li" className="mb-1" bsPrefix=" ">
-											<span className="text-success me-1">
-												<i className="far fa-check-circle"></i>
-											</span>
-											<span>Offline viewing </span>
-										</ListGroup.Item>
-										<ListGroup.Item as="li" className="mb-1" bsPrefix=" ">
-											<span className="text-success me-1">
-												<i className="far fa-check-circle"></i>
-											</span>
-											<span>
-												<span className="fw-bold text-dark">Offline </span>
-												projects{' '}
-											</span>
-										</ListGroup.Item>
-										<ListGroup.Item as="li" className="mb-1" bsPrefix=" ">
-											<span className="text-success me-1">
-												<i className="far fa-check-circle"></i>
-											</span>
-											<span>
-												<span className="fw-bold text-dark">Unlimited </span>
-												storage
-											</span>
-										</ListGroup.Item>
-										<ListGroup.Item as="li" className="mb-1" bsPrefix=" ">
-											<span className="text-success me-1">
-												<i className="far fa-check-circle"></i>
-											</span>
-											<span>Custom domain support </span>
-										</ListGroup.Item>
-										<ListGroup.Item as="li" className="mb-1" bsPrefix=" ">
-											<span className="text-success me-1">
-												<i className="far fa-check-circle"></i>
-											</span>
-											<span>Bulk editing </span>
-										</ListGroup.Item>
-										<ListGroup.Item as="li" className="mb-1" bsPrefix=" ">
-											<span className="text-success me-1">
-												<i className="far fa-check-circle"></i>
-											</span>
-											<span>12 / 5 support</span>
-										</ListGroup.Item>
-									</ListGroup>
-								</div>
-								<hr className="m-0" />
-								<div className="p-4">
-									<Link href="https://rzp.io/i/loWfdTId8" className="btn btn-outline-primary">
-										Pay Now
-									</Link>
-								</div>
-							</Card>
-							{/*  Card */}
-							<Card className="border-0 mb-3 mb-lg-0">
-								{/*  Card body */}
-								<Card.Body>
-									<h3 className="mb-2">Discount Codes</h3>
-									<Form>
-										<Form.Group
-											className="input-group"
-											controlId="discountcodes"
-										>
-											<Form.Control
-												type="text"
-												placeholder="Enter your code"
-												required
-											/>
-											<Button variant="secondary" id="couponCode">
-												Apply
-											</Button>
-										</Form.Group>
-									</Form>
-								</Card.Body>
-							</Card>
-						</Col>
-					</Row>
+						
+					{/* </Row> */}
 				</Container>
 			</section>
 		</Fragment>

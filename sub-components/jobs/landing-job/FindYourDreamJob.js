@@ -20,7 +20,7 @@ const FindYourDreamJob = () => {
               </div>
               <div className="mt-8">
                 {/* job search form */}
-                <JobSearchBox />
+                {/* <JobSearchBox /> */}
                 {/* text */}
                 <span className=" fs-4">Currently listing 30,642 jobs from 5,717 companies</span>
               </div>

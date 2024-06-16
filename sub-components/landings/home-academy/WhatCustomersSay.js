@@ -20,13 +20,12 @@ const WhatCustomersSay = () => {
                     </span>{' '}
                     <span className="text-warning">5</span><span className="ms-2">(Based on 3265 ratings)</span></div>
                   <h2 className="h1">What our customers say</h2>
-                  <p className="mb-0"> Hear from <span className="text-dark">teachers</span>, <span
-                    className="text-dark">trainers</span>, and <span className="text-dark">leaders</span> in the learning space about how Geeks empowers them to provide quality online learning experiences.</p>
+                  <p className="mb-0"> Dive into inspiring testimonials from our graduates who have turned their ambitions into reality with our Fullstack Development Program. Learn how our innovative curriculum and hands-on experience have propelled them into exciting careers at leading companies.</p>
                 </div>
               </Col>
-              <Col md={6} className="text-md-end mt-4 mt-md-0">
+              {/* <Col md={6} className="text-md-end mt-4 mt-md-0">
                 <Link href="#" className="btn btn-primary">View Reviews</Link>
-              </Col>
+              </Col> */}
             </Row>
           </Col>
         </Row>
