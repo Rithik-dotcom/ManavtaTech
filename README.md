@@ -1,4 +1,4 @@
-# 🌐 Manavta Tech
+# 🌐 Manavta Tech By Rithik Singh
 
 🚀 A modern **Next.js + React** project built for **Manavta Tech** — showcasing the power of web technologies for learning, growth, and e-commerce.  
 
@@ -55,12 +55,6 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 
 ⭐ If you like this project, give it a star on GitHub!
 
-yaml
-Copy code
-
----
-
-Do you want me to also add a **banner image section** (so your README looks professional with a header image)?
 
 
 
@@ -68,4 +62,5 @@ Do you want me to also add a **banner image section** (so your README looks prof
 
 
 
-Ask ChatGPT
+
+
