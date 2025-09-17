@@ -1,50 +1,71 @@
-# Geeks NEXTJS
+# 🌐 Manavta Tech
 
-Geeks UI Kit is built with the most popular front-end framework [React Bootstrap](https://react-bootstrap.github.io/) latest with react-scripts and nextjs framework (https://nextjs.org/).
+🚀 A modern **Next.js + React** project built for **Manavta Tech** — showcasing the power of web technologies for learning, growth, and e-commerce.  
 
-## Getting Started
+👉 Live Demo: [Visit Site](https://manavta-tech-8fppjvwg2-rithik-dotcoms-projects.vercel.app/)  
 
-### Running in Local environment
-**1. Requirements Node.js**
+---
 
-Before proceeding you'll need to have the latest stable nodejs. Install [Node.js](https://nodejs.org/en/download/) or already have it installed on your machine move to next step.
+## ✨ Features
+- ⚛️ Built with **React 18** & **Next.js**
+- 🎨 Modern UI/UX design
+- 📱 Responsive & mobile-friendly
+- ⚡ Fast builds with **Vercel**
+- 🔄 Scalable architecture for future modules
 
-**2. Install Geeks Nextjs**
+---
 
-Open the "geeksnextjs” directory with your cmd or terminal. Open the project folder and install its dependencies.
+## 📦 Tech Stack
+- **Frontend:** Next.js, React  
+- **Styling:** CSS / Tailwind (if used)  
+- **Deployment:** Vercel  
 
-```
-cd geeksnextjs 
-```
-```
-npm install 
-```
-This command will download all the necessary dependencies for geeks in the node_modules directory.
+---
 
-**3. Start**
+## 🚀 Getting Started
 
-Once the installation is done, you can now start your app by running `npm run dev` command in development mode. A local web server will start at [http://localhost:3000](http://localhost:3000)
+Clone the repo and run locally:
 
+```bash
+git clone https://github.com/<your-username>/manavta-tech.git
+cd manavta-tech
+npm install
+npm run dev
+The app will be available at http://localhost:3000 🎉
 
-### Creating a Production Build.
+🛠️ Build & Deploy
+For production:
 
-Production build of your app.
-
-1. Run `npm run build` command in your project directory to make the Production build app.
-```
+bash
+Copy code
 npm run build
-```
-2. Open Static Server for the production build
-```
-npm run start
-```
+npm start
+Deployed automatically via Vercel → Vercel Dashboard
 
-## Deploy on Vercel
+📸 Screenshots
+Add a few UI screenshots here
 
-There are different ways to deploy your project on vercel, here is the documentation of [Vercel Platform](https://vercel.com/docs/concepts/deployments/overview) from the creators of NextJs.
+🤝 Contributing
+Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
 
-For more details to [Unlock the full potential of Next.js](https://vercel.com/solutions/nextjs).
+📧 Contact
+👤 Rithik Singh R
+📩 kushwahrithik@gmail.com
+📱 +91 8827840769
 
-## Support
+⭐ If you like this project, give it a star on GitHub!
 
-Codescandy is happy to provide support for issues. Contact us an email at hello@codescandy.com
+yaml
+Copy code
+
+---
+
+Do you want me to also add a **banner image section** (so your README looks professional with a header image)?
+
+
+
+
+
+
+
+Ask ChatGPT
