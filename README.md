@@ -2,6 +2,7 @@
 
 🚀 A modern **Next.js + React** project built for **Manavta Tech** — showcasing the power of web technologies for learning, growth, and e-commerce.  
 👉 LIVE DEMO : [Visit Site](https://manavta-tech.vercel.app/)
+
 👉 Live Demo: [Visit Site](https://manavta-tech-8fppjvwg2-rithik-dotcoms-projects.vercel.app/)  
 
 ---
